@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s Day, Love</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 600px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    button {
+      background: #fff;
+      color: #ff4d6d;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .message {
+      display: none;
+      margin-top: 20px;
+      line-height: 1.6;
+      font-size: 17px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>💖 Happy Valentine’s Day 💖</h1>
+    <p>Tap this, love</p>
+
+    <button onclick="showMessage()">Open My Heart</button>
+
+    <div class="message" id="msg">
+      <p>
+        happy valentine’s day, love. 🌹  
+        gusto ko lang ipaalam sayo na sa araw na ‘to, at sa lahat ng araw na darating pa,  
+        ikaw at ikaw pa rin ang pipiliin ko. mahal na mahal kita—sobra pa sa sobra.
+      </p>
+
+      <p>
+        alam kong hindi ako perpekto at hindi ko pa maibigay lahat ng gusto mo,  
+        pero love, buo at totoo ang nararamdaman ko para sayo.  
+        every wait, every effort, ginagawa ko ‘yan kasi ikaw ‘yan.
+      </p>
+
+      <p>
+        thank you for staying, for understanding, and for loving me.  
+        ikaw ang dasal ko gabi-gabi, at ikaw ang gusto kong makasama sa bawat bukas.
+      </p>
+
+      <p>
+        i love you so much, love. always. 💕
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("msg").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
